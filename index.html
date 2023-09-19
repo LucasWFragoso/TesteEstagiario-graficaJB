@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Teste Estagiario</title>
+</head>
+<body>
+    <div id="userRegister">
+        <h1>Cadastro Usuário</h1>
+        <form action="" id="formUser">
+            <div id="divLabelInput">
+                <label for="name">Nome:</label>
+                <div id="divInputError">
+                    <input type="text" name="name" id="name" placeholder="digite o seu nome..." required>
+                </div>
+            </div>
+            <div id="divLabelInput">
+                <label for="email">Email:</label>
+                <div id="divInputError">
+                    <input type="email" name="emai" id="email" placeholder="digite o seu email..." required>
+                </div>
+            </div>
+            <div id="divLabelInput">
+                <label for="phone">telefone:</label>
+                <div id="divInputError">
+                    <input type="tel" name="phone" id="phone" placeholder="digite o seu telefone..." required>
+                </div>
+            </div>
+
+            <button type="submit" id="btnEnviar" >Enviar</button>
+        </form>
+        <div id="sucessRegister" class="displayNone">
+            <h2>Obrigado por seu cadastro!</h2>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
